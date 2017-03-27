@@ -16,6 +16,46 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<link href="css/style.css" rel='stylesheet' type='text/css' />
    		 <!-- Custom Theme files -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			/* The Modal (background) */
+		.modal {
+		    display: none; /* Hidden by default */
+		    position: fixed; /* Stay in place */
+		    z-index: 2; /* Sit on top */
+		    left: 0;
+		    top: 0;
+		    width: 100%; /* Full width */
+		    height: 100%; /* Full height */
+		    overflow: auto; /* Enable scroll if needed */
+		    background-color: rgb(0,0,0); /* Fallback color */
+		    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+		}
+
+		/* Modal Content/Box */
+		.modal-content {
+		    background-color: #fefefe;
+		    margin: 15% auto; /* 15% from the top and centered */
+		    padding: 20px;
+		    border: 1px solid #888;
+		    width: 80%; /* Could be more or less, depending on screen size */
+		}
+
+		/* The Close Button */
+		.close {
+		    color: #aaa;
+		    float: right;
+		    font-size: 28px;
+		    font-weight: bold;
+		}
+
+		.close:hover,
+		.close:focus {
+		    color: black;
+		    text-decoration: none;
+		    cursor: pointer;
+		}
+		</style>
+		
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</script>
 		 <!---- start-smoth-scrolling---->
@@ -69,7 +109,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<li><a href="#about" class="scroll">เกี่ยวกับเรา</a></li>
 								<li><a href="#services" class="scroll">ลูกค้าที่ใช้บริการ</a></li>
 								<li><a href="#contact" class="scroll">ติดต่อเรา</a></li>
-								<li><a href="#" class="scroll">เข้าสู่ระบบ</a></li>
+								<!-- Trigger/Open The Modal -->
+								<li><a href="#" id="myBtn" class="scroll">เข้าสู่ระบบ</a></li>
 							</ul>
 							<a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
 						</nav>
@@ -123,11 +164,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="container">
 					<div class="header about-header text-center">
 						<h2>เกี่ยวกับเรา</h2>
+						
+						<p><strong style="color:#01AEF0;">TQM ที่ปรึกษาประกันภัยและการเงินชั้นนำของไทย</strong> มีนโยบายพัฒนาศักยภาพของพนักงานอย่างต่อเนื่อง ทั้งอบรมให้ความรู้ตามงานในหน้าที่และรวมถึงความรู้ด้านประกันภัยอีกด้วย ส่งเสริมให้พนักงานใช้ความคิดในการพัฒนางานของตนเอง เพื่อนำไปสู่เส้นทางการเจริญเติบโตใน TQM ต่อไป ปัจจุบัน TQM มีพนักงานมืออาชีพให้บริการอยู่ทั่วประเทศกว่า 4,000 คน มีสาขา 96 แห่งทั่วประเทศ สามารถทำงานที่สำนักงานใหญ่ กรุงเทพฯ หรือในต่างจังหวัดทั่วไทย</p>
 						<img src="images/company/TQM-1.jpg" alt="" style="max-width: 350px; width:100%;">
 						<div class="clearfix"> </div>
 						<br>
-						
-						<p><strong style="color:#01AEF0;">TQM ที่ปรึกษาประกันภัยและการเงินชั้นนำของไทย</strong> มีนโยบายพัฒนาศักยภาพของพนักงานอย่างต่อเนื่อง ทั้งอบรมให้ความรู้ตามงานในหน้าที่และรวมถึงความรู้ด้านประกันภัยอีกด้วย ส่งเสริมให้พนักงานใช้ความคิดในการพัฒนางานของตนเอง เพื่อนำไปสู่เส้นทางการเจริญเติบโตใน TQM ต่อไป ปัจจุบัน TQM มีพนักงานมืออาชีพให้บริการอยู่ทั่วประเทศกว่า 4,000 คน มีสาขา 96 แห่งทั่วประเทศ สามารถทำงานที่สำนักงานใหญ่ กรุงเทพฯ หรือในต่างจังหวัดทั่วไทย</p>
+						<h3 style="color:#01AEF0;">สิทธิประโยชน์ต่าง</h3>
+						<p>บริษัท ทีคิวเอ็ม อินชัวร์รันส์ โบรคเกอร์ จำกัด ครบรอบ 60 ปี ที่ปรึกษาประกันภัยชั้นนำ มอบสิทธิพิเศษสำหรับลูกค้า TQM รับคูปองส่วนลดสูงสุด 50-80% จากร้านค้าและร้านบริการชั้นนำทั่วประเทศให้คุณกิน ช้อป เที่ยว ตามไลฟ์สไตล์ที่เป็นคุณ สามารถตรวจสอบและดูข้อมูลเพิ่มเติมได้ <a href="http://www.tqm.co.th/familyclub/privilege" target="_blank" style="size: 20px; color:#01AEF0;">ที่นี่</a></p>
 					</div>
 					<!---- About-grids ---->
 					
@@ -227,3 +270,42 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</body>
 </html>
 
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+
+<script>
+			// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
