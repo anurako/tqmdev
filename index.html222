@@ -8,6 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 	<head>
 		<title>Doctor Website Template | Home :: w3layouts</title>
+		<meta charset="UTF-8">
 		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/jquery.min.js"></script>
@@ -59,7 +60,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="top-header">
 						<div class="container">
 						<div class="logo">
-							<a href="#"><img src="images/logo.png" title="doctor" /></a>
+							<a href="#"><img src="images/company/logo.png" title="doctor" /></a>
 						</div>
 						<!----start-top-nav---->
 						 <nav class="top-nav">
@@ -104,35 +105,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			    <div  id="top" class="callbacks_container">
 			      <ul class="rslides" id="slider4">
 			        <li>
-			          <img src="images/slide1.jpg" alt="">
-			          <div class="caption">
+			          <img src="images/company/banner_01.png" alt="">
+			          <!-- <div class="caption">
 			          	<div class="slide-text-info">
 			          		<h1>providing</h1>
 			          		<label>highquality service for men & women</label>
 			          		<a class="slide-btn" href="#">learn more</a>
 			          	</div>
-			          </div>
+			          </div> -->
 			        </li>
 			        <li>
-			          <img src="images/slide1.jpg" alt="">
-			          <div class="caption">
+			          <img src="images/company/banner_24.png" alt="">
+			          <!-- <div class="caption">
 			          	<div class="slide-text-info">
 			          		<h1>providing</h1>
 			          		<label>highquality service for men & women</label>
 			          		<a class="slide-btn" href="#">learn more</a>
 			          	</div>
-			          </div>
+			          </div> -->
 			        </li>
-			        <li>
-			          <img src="images/slide1.jpg" alt="">
-			           <div class="caption">
-			           	<div class="slide-text-info">
-			          		<h1>providing</h1>
-			          		<label>highquality service for men & women</label>
-			          		<a class="slide-btn" href="#">learn more</a>
-			          	</div>
-			          </div>
-			        </li>
+			        
 			      </ul>
 			    </div>
 			    <div class="clearfix"> </div>
@@ -183,14 +175,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				
 			</div>
 			<!---- about ---->
-			<!--- services --->
+			<!--- services -->
 			<div id="services" class="services">
 				<div class="container">
 					<div class="header services-header text-center">
 						<h2>our services</h2>
 						<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 					</div>
-					<!---- service-grids--->
+					<!---- service-grids-->
 					<div class="service-grids">
 						<div class="col-md-3">
 							<div class="service-grid text-center">
@@ -218,19 +210,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="clearfix"> </div>
 					</div>
-					<!----//service-grids--->
+					<!----//service-grids-->
 				</div>
 				
 			</div>
-			<!--- services --->
-			<!--- team --->
+			<!--- services -->
+			<!--- team -->
 			<div id="team" class="team">
 				<div class="container">
 					<div class="header team-head text-center">
 						<h2>our team</h2>
 						<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
 					</div>
-					<!--- teammember-grids ---->
+					<!-- teammember-grids -->
 					<div class="team-member-grids">
 						<div class="team-member-grid">
 							<img src="images/t1.jpg" title="name" />
@@ -286,26 +278,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="container">
 						<!---- contact-grids ---->
 						<div class="contact-grids">
-							<h3>contact us</h3>
+							<h3>ติดต่อเรา</h3>
 							<div class="col-md-5 contact-grid-left">
-								<h4>contact information</h4>
+								<h4>ข้อมูลการติดต่อ</h4>
 								<ul>
-									<li><span class="cal"> </span><label>Monday - Friday :</label><small>9:30 AM to 6:30 PM</small></li>
-									<li><span class="pin"> </span><label>Address :</label><small>123 Some Street , London, UK, CP 123</small></li>
-									<li><span class="phone"> </span><label>Phone :</label><small>(032) 987-1235</small></li>
-									<li><span class="fax"> </span><label>Fax :</label><small>(123) 984-1234</small></li>
-									<li><span class="mail"> </span><label>Email :</label><small> info@doctor.com</small></li>
+									<!-- <li><span class="cal"> </span><label>Monday - Friday :</label><small>9:30 AM to 6:30 PM</small></li> -->
+									<li><span class="pin"> </span><label>ที่อยู่ :</label><small>123 ถนนลาดปลาเค้า แขวงจรเข้บัว เขตลาดพร้าว กรุงเทพฯ 10230</small></li>
+									<li><span class="phone"> </span><label>โทรศัพท์ :</label><small>(1737), 0-2150-8888</small></li>
+									<li><span class="fax"> </span><label>โทรสาร :</label><small>(1737), 0-2150-8000</small></li>
+									<!-- <li><span class="mail"> </span><label>Email :</label><small> info@doctor.com</small></li> -->
 								</ul>
 							</div>
 							<div class="col-md-7 contact-grid-right">
-								<h4>leave us a message</h4>
-								<form>
-									<input type="text" value="Name:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name:';}">
-									<input type="text" value="Email:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email:';}">
-									<input type="text" value="Phone No:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone No:';}">
-									<textarea rows="2" cols="70" onfocus="if(this.value == 'Message:') this.value='';" onblur="if(this.value == '') this.value='Message:';">Message:</textarea>
-									<input type="submit" value="SEND MESSAGE" />
-								</form>
+								<h4>แผนที่ตั้งบริษัท</h4>
+								<img src="images/company/mapnewbuilding.jpg" alt="">
 							</div>
 							<div class="clearfix"> </div>
 						</div>
