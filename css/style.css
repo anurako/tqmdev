@@ -636,10 +636,11 @@ div.slide-text-info {
 	border:none;
 }
 .contact-info{
-	position: absolute;
+	/*position: absolute;*/
 	width: 100%;
 	top: 0px;
-	background: url(../images/top-grid-info-bg-b.png);
+	/*background: url(../images/top-grid-info-bg-b.png);*/
+	background-color: #1499E6;
 	padding: 3em;
 	top: 8%;
 }
